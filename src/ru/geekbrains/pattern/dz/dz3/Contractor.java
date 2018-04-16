@@ -1,23 +1,26 @@
 package ru.geekbrains.pattern.dz.dz3;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 
 public class Contractor extends Partner {
 
-    private ArrayList<ContractorContract> contracts;
+    private HashSet<ContractorContract> contracts;
 
     public Contractor(String name, String inn, String kpp, String account) {
         super(name, inn, kpp, account);
     }
 
-    public void addContract(String name){
+    public void addContract(String name) {
         contracts.add(new ContractorContract(name, this));
     }
 
-    public ContractorContract getContract(String name){
-        for (int i = 0; i < contracts.size(); i++) {
-            if (contracts.get(i).getName().equals(name)){
-                return contracts.get(i);
+    public ContractorContract getContract(String name) {
+        if (contracts.size() > 0) {
+            for (ContractorContract element : contracts
+                    ) {
+                if (element.getName().equals(name)) {
+                    return element;
+                }
             }
         }
         return null;
