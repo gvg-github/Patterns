@@ -6,9 +6,9 @@ public class MainClass {
         Contractor myContractor1 = new Contractor("My Contractor1", "000001", "000001", "000001");
         myContractor1.addContract("Contract with myCompany");
 
-        Documentable checkDoc = myCompany.createCheck(myCompany, myContractor1, myContractor1.getContract("Contract with myCompany"));
-        Documentable deliveryDoc = myCompany.createDelivery(myCompany, myContractor1, myContractor1.getContract("Contract with myCompany"));
-        Documentable paymentDoc = myCompany.createPayment(myCompany, myContractor1, myContractor1.getContract("Contract with myCompany"));
-        Documentable requestDoc = myCompany.createRequest(myCompany, myContractor1, myContractor1.getContract("Contract with myCompany"));
+        Documentable checkDoc = Company.createCheck(myCompany, myContractor1, myContractor1.getContract("Contract with myCompany"));
+        Documentable deliveryDoc = Company.createDelivery(myCompany, myContractor1, myContractor1.getContract("Contract with myCompany"));
+        Documentable paymentDoc = Company.createPayment(myCompany, myContractor1, myContractor1.getContract("Contract with myCompany"));
+        Documentable requestDoc = Company.createRequest(myCompany, myContractor1, myContractor1.getContract("Contract with myCompany"));
     }
 }

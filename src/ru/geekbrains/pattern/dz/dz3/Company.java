@@ -8,19 +8,19 @@ public class Company extends Partner {
         super(name, inn, kpp, account);
     }
 
-    public Documentable createCheck(Company company, Contractor contractor, ContractorContract contract) {
+    public static Documentable createCheck(Company company, Contractor contractor, ContractorContract contract) {
         return docs[0].createDoc(company, contractor, contract);
     }
 
-    public Documentable createDelivery(Company company, Contractor contractor, ContractorContract contract) {
+    public static Documentable createDelivery(Company company, Contractor contractor, ContractorContract contract) {
         return docs[1].createDoc(company, contractor, contract);
     }
 
-    public Documentable createPayment(Company company, Contractor contractor, ContractorContract contract) {
+    public static Documentable createPayment(Company company, Contractor contractor, ContractorContract contract) {
         return docs[2].createDoc(company, contractor, contract);
     }
 
-    public Documentable createRequest(Company company, Contractor contractor, ContractorContract contract) {
+    public static Documentable createRequest(Company company, Contractor contractor, ContractorContract contract) {
         return docs[3].createDoc(company, contractor, contract);
     }
 }
