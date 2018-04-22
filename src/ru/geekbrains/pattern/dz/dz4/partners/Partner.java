@@ -1,6 +1,7 @@
-package ru.geekbrains.pattern.dz.dz3;
+package ru.geekbrains.pattern.dz.dz4.partners;
 
 public abstract class Partner {
+
     private String name;
     private String inn;
     private String kpp;

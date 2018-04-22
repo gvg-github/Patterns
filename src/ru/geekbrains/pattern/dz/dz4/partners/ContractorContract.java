@@ -1,6 +1,4 @@
-package ru.geekbrains.pattern.dz.dz3;
-
-import javafx.beans.property.StringProperty;
+package ru.geekbrains.pattern.dz.dz4.partners;
 
 public class ContractorContract {
 

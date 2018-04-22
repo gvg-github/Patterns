@@ -1,4 +1,4 @@
-package ru.geekbrains.pattern.dz.dz3;
+package ru.geekbrains.pattern.dz.dz4.partners;
 
 import java.util.HashSet;
 
