@@ -1,4 +1,4 @@
-package ru.geekbrains.pattern.dz.dz6.parthners;
+package ru.geekbrains.pattern.dz6.parthners;
 
 public abstract class Partner {
     private String name;

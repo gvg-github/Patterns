@@ -1,6 +1,6 @@
-package ru.geekbrains.pattern.dz.dz6;
+package ru.geekbrains.pattern.dz6;
 
-import ru.geekbrains.pattern.dz.dz6.documents.CheckDocument;
+import ru.geekbrains.pattern.dz6.documents.CheckDocument;
 
 import java.sql.Connection;
 import java.sql.Date;
