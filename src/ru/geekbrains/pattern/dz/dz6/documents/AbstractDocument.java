@@ -1,14 +1,35 @@
-package ru.geekbrains.pattern.dz.dz5.documents;
+package ru.geekbrains.pattern.dz.dz6.documents;
 
-import ru.geekbrains.pattern.dz.dz5.parthners.Company;
-import ru.geekbrains.pattern.dz.dz5.parthners.Contractor;
-import ru.geekbrains.pattern.dz.dz5.parthners.ContractorContract;
+import ru.geekbrains.pattern.dz.dz6.parthners.Company;
+import ru.geekbrains.pattern.dz.dz6.parthners.Contractor;
+import ru.geekbrains.pattern.dz.dz6.parthners.ContractorContract;
+
+import java.util.Date;
 
 abstract class AbstractDocument {
 
     private Company company;
     private Contractor contractor;
     private ContractorContract contract;
+    private String number;
+    private Date date;
+
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
 
     public void setCompany(Company company) {
         this.company = company;

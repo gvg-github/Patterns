@@ -1,8 +1,8 @@
-package ru.geekbrains.pattern.dz.dz5.documents;
+package ru.geekbrains.pattern.dz.dz6.documents;
 
-import ru.geekbrains.pattern.dz.dz5.parthners.Company;
-import ru.geekbrains.pattern.dz.dz5.parthners.Contractor;
-import ru.geekbrains.pattern.dz.dz5.parthners.ContractorContract;
+import ru.geekbrains.pattern.dz.dz6.parthners.Company;
+import ru.geekbrains.pattern.dz.dz6.parthners.Contractor;
+import ru.geekbrains.pattern.dz.dz6.parthners.ContractorContract;
 
 public class CheckDocument extends AbstractDocument {
 

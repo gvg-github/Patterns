@@ -1,4 +1,4 @@
-package ru.geekbrains.pattern.dz.dz5.parthners;
+package ru.geekbrains.pattern.dz.dz6.parthners;
 
 import java.util.ArrayList;
 
