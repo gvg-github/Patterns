@@ -1,4 +1,30 @@
 package ru.geekbrains.pattern.dz7;
 
-public class model {
+import java.sql.*;
+
+public class Model {
+
+    {
+        try {
+            Class.forName("org.sqlite.JDBC");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static synchronized ResultSet getData() {
+
+        ResultSet rs = null;
+        try {
+
+            Connection connection = DriverManager.getConnection("jdbc:sqlite:MyDB.db");
+            Statement statement = connection.createStatement();
+            rs = statement.executeQuery("SELECT * FROM Results");
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return rs;
+    }
+
 }
