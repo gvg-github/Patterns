@@ -1,4 +1,4 @@
-package ru.geekbrains.pattern.dz.dz7;
+package ru.geekbrains.pattern.dz7;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
