@@ -1,4 +1,4 @@
-package ru.geekbrains.pattern.dz.dz7;
+package ru.geekbrains.pattern.dz7;
 
 public class MainClass {
     public static void main(String[] args) {
