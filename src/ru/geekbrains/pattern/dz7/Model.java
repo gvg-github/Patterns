@@ -17,7 +17,7 @@ public class Model {
         ResultSet rs = null;
         try {
 
-            Connection connection = DriverManager.getConnection("jdbc:sqlite:MyDB.db");
+            Connection connection = DriverManager.getConnection("jdbc:sqlite:Results.db");
             Statement statement = connection.createStatement();
             rs = statement.executeQuery("SELECT * FROM Results");
 
